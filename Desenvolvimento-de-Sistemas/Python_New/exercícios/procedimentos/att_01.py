@@ -1,6 +1,6 @@
 # 1) Crie uma função que multiplica todos os argumentos não nomeados recebidos e Retorne o total para uma variável e mostre o valor da variável.
 
-def mult(*args):
+def mult(*args): #*args permite que você passe um número arbitrário de argumentos para a função.
     total = 1
     for num in args:
         total *= num
