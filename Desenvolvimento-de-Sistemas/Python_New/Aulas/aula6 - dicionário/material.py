@@ -35,6 +35,7 @@ usuario = {
 # pop - APAGA UMA CHAVE ESPECÍFICA (del)
 # popitem - APAGA A ULTIMA CHAVE
 # update - ATUALIZA UM DICIONARIO
+# sum - SOMA OS VALORES OU CONCATENA
 
 print(len(usuario))
 print(list(usuario.keys()))
@@ -58,3 +59,6 @@ usuario.update({
     'email' : 'victor.roho@gmail.com'
 })
 print(usuario)
+
+soma = sum(usuario.values())
+print(soma)
