@@ -10,5 +10,9 @@
   "Papay": {
     "nome": "Paula",
     "senha": "12345"
+  },
+  "pica_123": {
+    "nome": "pica_longa",
+    "senha": "pica"
   }
 }
