@@ -24,8 +24,6 @@ class Motorista:
             print(f'{self.nome} não tem um carro associado para adicionar {item} ao porta-malas.')
 
 
-
-
 # OBJ Carro
 class Carro:
     def __init__(self,modelo):
