@@ -1,0 +1,11 @@
+[
+  {
+    "nome": "Victor",
+    "notas": [
+      8,
+      5
+    ],
+    "media": 6.5,
+    "aprovacao": null
+  }
+]
