@@ -4,6 +4,7 @@ class ItemPedido:
     def __init__(self,nome,preco):
         self.nome = nome
         self.preco = preco
+        self.qtd = None
 
 class Cardapio:
     def __init__(self):
@@ -24,6 +25,18 @@ class Pedido:
         self.pedidos = []
     
     def adicionar_pedido(self,item,qtd):
-        self.pedidos.append(item,qtd)
+        self.pedidos.append(item)
+        item.qtd = qtd
     
+    def remover_pedido(self,item):
+        self.pedidos.remove(item)
+
+    def mostrar_pedido(self):
+        for item in self.pedidos:
+            print(item.nome, item.qtd)
     
+    def total_pedido(self):
+        total = 0
+        for item in self.pedidos:
+            total = total + (item.preco * item.qtd)
+        print(total)
