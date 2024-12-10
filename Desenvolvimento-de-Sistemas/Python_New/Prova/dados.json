@@ -1,0 +1,22 @@
+[
+  {
+    "numero 1": 5.0,
+    "numero 2": 5.0,
+    "operacao": "+"
+  },
+  {
+    "numero 1": 1.0,
+    "numero 2": 1.0,
+    "operacao": "+"
+  },
+  {
+    "numero 1": 5.0,
+    "numero 2": 2.0,
+    "operacao": "/"
+  },
+  {
+    "numero 1": 5.0,
+    "numero 2": 5.0,
+    "operacao": "+"
+  }
+]
