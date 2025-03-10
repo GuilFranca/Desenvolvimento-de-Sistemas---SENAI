@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="F7F3-36-32B6-82-4D17-44-F1">
+<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="6343-8E-8C10-8B-C7E9-7D-FD">
 <InfoDiagrama ID="1">
 <Versao Valor="3.2.0"/>
 <Autores/>
@@ -16,7 +16,7 @@
 <Entidade ID="401">
 <Bounds Height="58" Left="383" Top="519" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Clientes</Texto>
+<Texto>Cliente</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -26,7 +26,7 @@
 <Entidade ID="403">
 <Bounds Height="58" Left="768" Top="519" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Produtos</Texto>
+<Texto>Produto</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -36,7 +36,7 @@
 <Entidade ID="405">
 <Bounds Height="58" Left="573" Top="794" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Compras</Texto>
+<Texto>Compra</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>

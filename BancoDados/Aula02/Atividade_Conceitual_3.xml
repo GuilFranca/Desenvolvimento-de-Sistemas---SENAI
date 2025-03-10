@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="F7F3-36-32B6-82-4D17-44-F1">
+<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="1A5-E5-648C-15-2EDE-8C-2">
 <InfoDiagrama ID="1">
 <Versao Valor="3.2.0"/>
 <Autores/>
@@ -16,7 +16,7 @@
 <Entidade ID="277">
 <Bounds Height="58" Left="631" Top="701" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Bebes</Texto>
+<Texto>Bebe</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -26,7 +26,7 @@
 <Entidade ID="279">
 <Bounds Height="58" Left="277" Top="699" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Maes</Texto>
+<Texto>Mae</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -36,7 +36,7 @@
 <Entidade ID="284">
 <Bounds Height="58" Left="1002" Top="700" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Medicos</Texto>
+<Texto>Medico</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>

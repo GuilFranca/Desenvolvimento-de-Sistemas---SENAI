@@ -10,13 +10,13 @@
 <Alinhamento_h Valor="60"/>
 <Zoom Valor="75"/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
-<Localizacao Left="217" Top="410"/>
+<Localizacao Left="211" Top="410"/>
 <Realce Valor="false"/>
 </InfoDiagrama>
 <Entidade ID="486">
 <Bounds Height="58" Left="427" Top="549" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Alunos</Texto>
+<Texto>Aluno</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -26,7 +26,7 @@
 <Entidade ID="488">
 <Bounds Height="58" Left="818" Top="548" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Trabalhos</Texto>
+<Texto>Trabalho</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -109,7 +109,7 @@
 <Entidade ID="498">
 <Bounds Height="58" Left="426" Top="669" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Diretores</Texto>
+<Texto>Diretor</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -119,7 +119,7 @@
 <Entidade ID="500">
 <Bounds Height="58" Left="816" Top="672" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Departamentos</Texto>
+<Texto>Departamento</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -202,7 +202,7 @@
 <Entidade ID="512">
 <Bounds Height="58" Left="424" Top="797" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Autores</Texto>
+<Texto>Autor</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -212,7 +212,7 @@
 <Entidade ID="513">
 <Bounds Height="58" Left="819" Top="804" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Livros</Texto>
+<Texto>Livro</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -295,7 +295,7 @@
 <Entidade ID="526">
 <Bounds Height="58" Left="425" Top="917" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Jogadores</Texto>
+<Texto>Jogador</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -305,7 +305,7 @@
 <Entidade ID="527">
 <Bounds Height="58" Left="819" Top="915" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Equipes</Texto>
+<Texto>Equipe</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -388,7 +388,7 @@
 <Entidade ID="537">
 <Bounds Height="58" Left="425" Top="1023" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Clientes</Texto>
+<Texto>Cliente</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -398,7 +398,7 @@
 <Entidade ID="538">
 <Bounds Height="58" Left="820" Top="1024" Width="120"/>
 <DisablePainted Valor="false"/>
-<Texto>Encomendas</Texto>
+<Texto>Encomenda</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
