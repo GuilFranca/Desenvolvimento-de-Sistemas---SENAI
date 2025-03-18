@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DIAGRAMA ID="1" TIPO="tpLogico" UniversalUnicID="843C-41-C45-18-7657-B7-DD">
+<DIAGRAMA ID="1" TIPO="tpLogico" UniversalUnicID="AC91-A-E21D-7F-CED5-E5-23">
 <InfoDiagrama ID="1">
 <Versao Valor="3.2.0"/>
 <Autores/>
@@ -10,19 +10,19 @@
 <Alinhamento_h Valor="60"/>
 <Zoom Valor="100"/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
-<Localizacao Left="13" Top="69"/>
+<Localizacao Left="0" Top="0"/>
 <Realce Valor="false"/>
 <SeparatorSQL Valor=";"/>
 <Prefixo Valor=""/>
 </InfoDiagrama>
-<Texto ID="11">
-<Bounds Height="71" Left="137" Top="172" Width="577"/>
+<Texto ID="3">
+<Bounds Height="71" Left="135" Top="322" Width="592"/>
 <DisablePainted Valor="false"/>
-<Texto>1. Você foi contratado como analista de dados para uma clínica médica. Sua tarefa é modelar o
-banco de dados da clínica, que possui médicos, pacientes e consultas. Cada consulta envolve um
-médico e um paciente, e a clínica quer registrar informações como o nome do médico, sua
-especialidade, o nome do paciente e a data da consulta. Defina as entidades, atributos e
-relacionamentos necessários para gerenciar esse sistema.</Texto>
+<Texto>2. Um sistema de biblioteca precisa ser desenvolvido para gerenciar os empréstimos de livros. Os
+usuários podem pegar livros emprestados, e é necessário controlar a data de empréstimo e a data de
+devolução. Cada livro possui um título, um autor e um ano de publicação, e cada usuário precisa ser
+registrado com nome e e-mail. Modele o sistema de modo que a biblioteca possa controlar seus
+empréstimos e gerenciar seus livros e usuários.</Texto>
 <Observacao/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
 <Ancorado Valor="false"/>
@@ -44,72 +44,10 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Autosize Valor="false"/>
 <MovimentacaoManual Valor="true"/>
 </Texto>
-<Tabela ID="22">
-<Bounds Height="106" Left="36" Top="276" Width="150"/>
+<Tabela ID="26">
+<Bounds Height="106" Left="42" Top="130" Width="150"/>
 <DisablePainted Valor="false"/>
-<Texto>Especialidade</Texto>
-<Observacao/>
-<Dicionario/>
-<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
-<Ancorado Valor="false"/>
-<Delimite Valor="true"/>
-<Roundrect Valor="22"/>
-<Gradiente Valor="true"/>
-<GradienteStartColor Valor="0,0,0,255"/>
-<GradienteEndColor Valor="204,204,204,255"/>
-<CorBorda Valor="0,0,0,255"/>
-<GDirecao Valor="0"/>
-<Alfa Valor="25"/>
-<Autosize Valor="true"/>
-<Gradiente Valor="true"/>
-<GradienteStartColor Valor="0,0,0,255"/>
-<GradienteEndColor Valor="204,204,204,255"/>
-<GDirecao Valor="0"/>
-<Alfa Valor="25"/>
-<ShowDDL Valor="false"/>
-<ShowInPlain Valor="false"/>
-<MostrarConstraints Valor="true"/>
-<PlainIR Valor="true"/>
-<Campos>
-<Campo>
-<Texto>id INTEGER</Texto>
-<Tipo/>
-<Complemento/>
-<Dicionario/>
-<Observacao/>
-<Key Valor="true"/>
-<Fkey Valor="false"/>
-<Unique Valor="false"/>
-</Campo>
-<Campo>
-<Texto>descricao</Texto>
-<Tipo>VARCHAR (30)</Tipo>
-<Complemento/>
-<Dicionario/>
-<Observacao/>
-<Key Valor="false"/>
-<Fkey Valor="false"/>
-<Unique Valor="false"/>
-</Campo>
-</Campos>
-<Constraints>
-<Constraint>
-<Nome Valor=""/>
-<Nomeada Valor="false"/>
-<Tipo Valor="0"/>
-<Dicionario/>
-<Observacao/>
-<DdlOnUpdate/>
-<DdlOnDelete/>
-<LigacaoParaOrigem ID="-1"/>
-<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
-</Constraint>
-</Constraints>
-</Tabela>
-<Tabela ID="23">
-<Bounds Height="128" Left="264" Top="277" Width="150"/>
-<DisablePainted Valor="false"/>
-<Texto>Medico</Texto>
+<Texto>Autor</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -153,16 +91,6 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Fkey Valor="false"/>
 <Unique Valor="false"/>
 </Campo>
-<Campo>
-<Texto>fk_Especialidade_id INTEGER</Texto>
-<Tipo/>
-<Complemento/>
-<Dicionario/>
-<Observacao/>
-<Key Valor="false"/>
-<Fkey Valor="true"/>
-<Unique Valor="false"/>
-</Campo>
 </Campos>
 <Constraints>
 <Constraint>
@@ -176,23 +104,12 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <LigacaoParaOrigem ID="-1"/>
 <ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
 </Constraint>
-<Constraint>
-<Nome Valor=""/>
-<Nomeada Valor="false"/>
-<Tipo Valor="2"/>
-<Dicionario/>
-<Observacao/>
-<DdlOnUpdate/>
-<DdlOnDelete/>
-<LigacaoParaOrigem ID="36"/>
-<ConstraintOrigem CamposDestino="[2]" CamposOrigem="[0]" ID="22,0">IR chave primária</ConstraintOrigem>
-</Constraint>
 </Constraints>
 </Tabela>
-<Tabela ID="24">
-<Bounds Height="150" Left="498" Top="278" Width="150"/>
+<Tabela ID="28">
+<Bounds Height="150" Left="259" Top="130" Width="150"/>
 <DisablePainted Valor="false"/>
-<Texto>Consulta</Texto>
+<Texto>Livro</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -227,7 +144,17 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Unique Valor="false"/>
 </Campo>
 <Campo>
-<Texto>data_consulta</Texto>
+<Texto>titulo</Texto>
+<Tipo>VARCHAR (30)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>ano_publicacao</Texto>
 <Tipo>DATE</Tipo>
 <Complemento/>
 <Dicionario/>
@@ -237,17 +164,7 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Unique Valor="false"/>
 </Campo>
 <Campo>
-<Texto>fk_Medico_id</Texto>
-<Tipo>INTEGER</Tipo>
-<Complemento/>
-<Dicionario/>
-<Observacao/>
-<Key Valor="false"/>
-<Fkey Valor="true"/>
-<Unique Valor="false"/>
-</Campo>
-<Campo>
-<Texto>fk_Paciente_id</Texto>
+<Texto>fk_Autor_id</Texto>
 <Tipo>INTEGER</Tipo>
 <Complemento/>
 <Dicionario/>
@@ -277,8 +194,100 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Observacao/>
 <DdlOnUpdate/>
 <DdlOnDelete/>
-<LigacaoParaOrigem ID="45"/>
-<ConstraintOrigem CamposDestino="[2]" CamposOrigem="[0]" ID="23,0">IR chave primária</ConstraintOrigem>
+<LigacaoParaOrigem ID="38"/>
+<ConstraintOrigem CamposDestino="[3]" CamposOrigem="[0]" ID="26,0">IR chave primária</ConstraintOrigem>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="29">
+<Bounds Height="172" Left="489" Top="130" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Emprestimo</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>id</Texto>
+<Tipo>INTEGER</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>data_emprestimo</Texto>
+<Tipo>DATE</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>data_devolucao</Texto>
+<Tipo>DATE</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>fk_Livro_id</Texto>
+<Tipo>INTEGER</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>fk_Usuario_id</Texto>
+<Tipo>INTEGER</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
 </Constraint>
 <Constraint>
 <Nome Valor=""/>
@@ -288,15 +297,26 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Observacao/>
 <DdlOnUpdate/>
 <DdlOnDelete/>
-<LigacaoParaOrigem ID="63"/>
-<ConstraintOrigem CamposDestino="[3]" CamposOrigem="[0]" ID="25,0">IR chave primária</ConstraintOrigem>
+<LigacaoParaOrigem ID="43"/>
+<ConstraintOrigem CamposDestino="[3]" CamposOrigem="[0]" ID="28,0">IR chave primária</ConstraintOrigem>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="50"/>
+<ConstraintOrigem CamposDestino="[4]" CamposOrigem="[0]" ID="30,0">IR chave primária</ConstraintOrigem>
 </Constraint>
 </Constraints>
 </Tabela>
-<Tabela ID="25">
-<Bounds Height="106" Left="742" Top="280" Width="150"/>
+<Tabela ID="30">
+<Bounds Height="128" Left="697" Top="129" Width="150"/>
 <DisablePainted Valor="false"/>
-<Texto>Paciente</Texto>
+<Texto>Usuario</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -340,6 +360,16 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Fkey Valor="false"/>
 <Unique Valor="false"/>
 </Campo>
+<Campo>
+<Texto>email</Texto>
+<Tipo>VARCHAR (35)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
 </Campos>
 <Constraints>
 <Constraint>
@@ -353,20 +383,9 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <LigacaoParaOrigem ID="-1"/>
 <ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
 </Constraint>
-<Constraint>
-<Nome Valor=""/>
-<Nomeada Valor="false"/>
-<Tipo Valor="2"/>
-<Dicionario/>
-<Observacao/>
-<DdlOnUpdate/>
-<DdlOnDelete/>
-<LigacaoParaOrigem ID="63"/>
-<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="24,0">IR chave primária</ConstraintOrigem>
-</Constraint>
 </Constraints>
 </Tabela>
-<LogicoLinha ID="36">
+<LogicoLinha ID="38">
 <DisablePainted Valor="false"/>
 <Tag LinhaMestre="-1"/>
 <Dashed Valor="false"/>
@@ -378,15 +397,15 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Inteligente Valor="true"/>
 <SetaAutomatica Valor="true"/>
 <Largura Valor="1"/>
-<Ligacoes PontaA="22" PontaB="23"/>
+<Ligacoes PontaA="26" PontaB="28"/>
 <Pontos>
-<Ponto Left="183" Top="310"/>
-<Ponto Left="222" Top="310"/>
-<Ponto Left="222" Top="313"/>
-<Ponto Left="260" Top="313"/>
+<Ponto Left="189" Top="160"/>
+<Ponto Left="222" Top="160"/>
+<Ponto Left="222" Top="228"/>
+<Ponto Left="255" Top="228"/>
 </Pontos>
-<LogicoCardinalidade ID="37">
-<Bounds Height="15" Left="186" Top="297" Width="35"/>
+<LogicoCardinalidade ID="39">
+<Bounds Height="15" Left="199" Top="147" Width="35"/>
 <DisablePainted Valor="false"/>
 <Texto>Cardinalidade_1</Texto>
 <Observacao/>
@@ -395,12 +414,12 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Ancorado Valor="false"/>
 <TamanhoAutmatico Valor="true"/>
 <Card Valor="0"/>
-<MovimentacaoManual Valor="true"/>
+<MovimentacaoManual Valor="false"/>
 <Papel Valor=""/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
 </LogicoCardinalidade>
-<LogicoCardinalidade ID="38">
-<Bounds Height="15" Left="228" Top="300" Width="35"/>
+<LogicoCardinalidade ID="40">
+<Bounds Height="15" Left="216" Top="215" Width="35"/>
 <DisablePainted Valor="false"/>
 <Texto>Cardinalidade_2</Texto>
 <Observacao/>
@@ -409,12 +428,12 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Ancorado Valor="false"/>
 <TamanhoAutmatico Valor="true"/>
 <Card Valor="2"/>
-<MovimentacaoManual Valor="true"/>
+<MovimentacaoManual Valor="false"/>
 <Papel Valor=""/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
 </LogicoCardinalidade>
 </LogicoLinha>
-<LogicoLinha ID="45">
+<LogicoLinha ID="43">
 <DisablePainted Valor="false"/>
 <Tag LinhaMestre="-1"/>
 <Dashed Valor="false"/>
@@ -426,15 +445,15 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Inteligente Valor="true"/>
 <SetaAutomatica Valor="true"/>
 <Largura Valor="1"/>
-<Ligacoes PontaA="23" PontaB="24"/>
+<Ligacoes PontaA="28" PontaB="29"/>
 <Pontos>
-<Ponto Left="411" Top="310"/>
-<Ponto Left="453" Top="310"/>
-<Ponto Left="453" Top="356"/>
-<Ponto Left="494" Top="356"/>
+<Ponto Left="406" Top="160"/>
+<Ponto Left="446" Top="160"/>
+<Ponto Left="446" Top="231"/>
+<Ponto Left="485" Top="231"/>
 </Pontos>
-<LogicoCardinalidade ID="46">
-<Bounds Height="15" Left="421" Top="297" Width="35"/>
+<LogicoCardinalidade ID="44">
+<Bounds Height="15" Left="416" Top="147" Width="35"/>
 <DisablePainted Valor="false"/>
 <Texto>Cardinalidade_3</Texto>
 <Observacao/>
@@ -447,8 +466,8 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Papel Valor=""/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
 </LogicoCardinalidade>
-<LogicoCardinalidade ID="47">
-<Bounds Height="15" Left="455" Top="343" Width="35"/>
+<LogicoCardinalidade ID="45">
+<Bounds Height="15" Left="446" Top="218" Width="35"/>
 <DisablePainted Valor="false"/>
 <Texto>Cardinalidade_4</Texto>
 <Observacao/>
@@ -462,7 +481,7 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
 </LogicoCardinalidade>
 </LogicoLinha>
-<LogicoLinha ID="63">
+<LogicoLinha ID="50">
 <DisablePainted Valor="false"/>
 <Tag LinhaMestre="-1"/>
 <Dashed Valor="false"/>
@@ -474,15 +493,15 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Inteligente Valor="true"/>
 <SetaAutomatica Valor="true"/>
 <Largura Valor="1"/>
-<Ligacoes PontaA="25" PontaB="24"/>
+<Ligacoes PontaA="30" PontaB="29"/>
 <Pontos>
-<Ponto Left="738" Top="314"/>
-<Ponto Left="692" Top="314"/>
-<Ponto Left="692" Top="377"/>
-<Ponto Left="645" Top="377"/>
+<Ponto Left="693" Top="162"/>
+<Ponto Left="665" Top="162"/>
+<Ponto Left="665" Top="252"/>
+<Ponto Left="636" Top="252"/>
 </Pontos>
-<LogicoCardinalidade ID="64">
-<Bounds Height="15" Left="699" Top="301" Width="35"/>
+<LogicoCardinalidade ID="51">
+<Bounds Height="15" Left="665" Top="150" Width="35"/>
 <DisablePainted Valor="false"/>
 <Texto>Cardinalidade_5</Texto>
 <Observacao/>
@@ -491,12 +510,12 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Ancorado Valor="false"/>
 <TamanhoAutmatico Valor="true"/>
 <Card Valor="0"/>
-<MovimentacaoManual Valor="false"/>
+<MovimentacaoManual Valor="true"/>
 <Papel Valor=""/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
 </LogicoCardinalidade>
-<LogicoCardinalidade ID="65">
-<Bounds Height="15" Left="655" Top="364" Width="35"/>
+<LogicoCardinalidade ID="52">
+<Bounds Height="15" Left="639" Top="239" Width="35"/>
 <DisablePainted Valor="false"/>
 <Texto>Cardinalidade_6</Texto>
 <Observacao/>
@@ -505,7 +524,7 @@ relacionamentos necessários para gerenciar esse sistema.</Texto>
 <Ancorado Valor="false"/>
 <TamanhoAutmatico Valor="true"/>
 <Card Valor="2"/>
-<MovimentacaoManual Valor="false"/>
+<MovimentacaoManual Valor="true"/>
 <Papel Valor=""/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
 </LogicoCardinalidade>
