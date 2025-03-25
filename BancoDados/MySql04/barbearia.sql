@@ -46,12 +46,9 @@ CREATE TABLE if not exists servico(
     valor FLOAT NOT NULL
 )auto_increment=1;
 
-DROP TABLE servico;
+-- DROP TABLE servico;
 
-INSERT INTO servico(nome, valor)VALUES('corte de cabelo', 30);
-INSERT INTO servico(nome, valor)VALUES('massagem', 100);
-INSERT INTO servico(nome, valor)VALUES('pintar unha', 25);
-INSERT INTO servico(nome, valor)VALUES('unha postica', 50);
+INSERT INTO servico(nome, valor)VALUES('corte de cabelo', 30), ('massagem', 100), ('pintar unha', 25), ('unha postica', 50);
 
 SELECT * FROM servico;
 
